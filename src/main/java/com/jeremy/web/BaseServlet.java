@@ -10,6 +10,7 @@ import java.lang.reflect.Method;
 public abstract class BaseServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
         String action = req.getParameter("action");
         Method method = null;
         try {

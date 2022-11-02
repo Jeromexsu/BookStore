@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>后台管理</title>
-	<%@include file="../public/head.jsp"%>>
+	<%@include file="../public/head.jsp"%>
 	<style type="text/css">
 		h1 {
 			text-align: center;
@@ -17,7 +17,7 @@
 	<div id="header">
 		<img class="logo_img" alt="" src="static/img/logo.gif" >
 		<span class="wel_word">后台管理系统</span>
-		<%@include file="../public/manage_menu.jsp"%>>
+		<%@include file="../public/manage_menu.jsp"%>
 	</div>
 	
 	<div id="main">

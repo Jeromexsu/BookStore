@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:forward page="clientBookServlet?action=getPage&pageNo=1&pageSize=4"></jsp:forward>
 <html>
 	<head>
 		<meta charset="UTF-8">

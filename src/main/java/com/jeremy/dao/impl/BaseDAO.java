@@ -57,7 +57,7 @@ public abstract class BaseDAO {
         Connection connection = JDBCUtils.getConnection();
         try {
             ScalarHandler rsh = new ScalarHandler();
-            queryRunner.query(connection,sql,rsh,params);
+            return queryRunner.query(connection,sql,rsh,params);
         } catch (SQLException e) {} finally {
             JDBCUtils.close(connection);
         }
